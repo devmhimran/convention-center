@@ -29,4 +29,15 @@
     .map{
         height: 350px!important;
     }
+    .copy-right-text-container {
+        text-align: center !important;
+        justify-content: center !important;
+    }
+    .app-content{
+        display: flex;
+        justify-content: center!important;
+    }
+    .fifth-section-right-image{
+        margin-top: 20px;
+    }
   }
