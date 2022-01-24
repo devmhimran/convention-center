@@ -59,132 +59,27 @@ p{
     width: 75%;
     margin: auto;
 }
-.carousel-description-content h1{
-    font-size: 48px;
-    line-height: 64px;
-    font-weight: 600;
-    text-align: center;
-}
-.carousel-description-content p{
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: 300;
-    text-align: center;
-}
 .carousel-img{
     width: 100%;
     filter: blur(2px);
 }
-.booking-button{
-    font-size: 16px;
-    font-weight: 700;
-    background-color: #fff;
-    color: #3F87F5;
-    padding: 14px 35px;
-    border-radius: 5px;
-}
-.booking-button:hover{
-    background-color: #3F87F5;
-    color: #fff;
-}
-.second-section{
+.second-section,
+.third-section,
+.fourth-section,
+.fifth-section,
+.sixsth-section
+{
     padding: 80px 0;
-}
-.second-section-right-content{
-    padding: 0 60px;
-}
-.second-section-right-content h1{
-    font-size: 38px;
-    line-height: 60px;
-    font-weight: 700;
-    color: #0A0826;
-}
-.second-section-right-content p{
-    font-size: 16px;
-    line-height: 28px;
-    font-weight: 600;
-    color: #6C6C6C;
-}
-.second-section-right-button{
-    margin-top: 30px;
-}
-.second-section-right-button a{
-    padding: 12px 30px;
-    background-color:#3F87F5;
-    color: #fff;
-    border: 1px solid #3F87F5;
-}
-.second-section-right-button a:hover{
-    
-    background-color:#fff;
-    color: #3F87F5;
-}
-.second-section-right-button a i{
-    margin-left: 5px;
-}
-.third-section,.fourth-section{
-    padding: 80px 0;
-}
-.third-section-package-heading h1,.fourth-section-package-heading h1{
-    color: #0A0826;
-    font-size: 38px;
-    font-weight: 600;
-    margin-bottom: 100px;
-}
-.third-section .card{
-    border: none;
-    border-radius: 30px;
-}
-.price h3{
-    color: #231D4F;
-    font-size: 36px;
-    font-weight: 600;
-}
-.package-title h2{
-    color: #231D4F;
-    font-size: 28px;
-    line-height: 48px;
-    font-weight: 600;
-}
-.package-description p{
-    font-size: 15px;
-    font-weight: 300;
-    color: #848199;
 }
 .icon{
     background-color: rgba(81, 66, 194, 0.15);
     padding: 0px 4px;
     border-radius: 20px;
-}.icon i{
-    font-size: 14px;
-}
-.package-name{
-    font-size: 17px;
-    color: #848199;
-}
-.plan-button{
-    color: #3F87F5;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 12px 30px;
-    background-color: rgba(244, 149, 209, 0.1);
-    border-radius: 50px;
-    /* margin-top: 25px; */
 }
 .package-three .card{
     box-shadow: 0px, 42px
     rgba(63, 135, 245, 0.25);
     transform: scale(1.15);
-}
-.package-three .price h3,
-.package-three .package-title h2,
-.package-three .package-description p,
-.package-three .package-name p
-{
-    color: #fff;
-}
-.package-three .plan-button{
-    background-color: #fff;
 }
 .package-three{
     position: relative;
@@ -194,22 +89,9 @@ p{
     top: -2%;
     right: 10%;
 }
-.fourth-section .card{
-    border: none;
-}
-.testimonials-description p{
-    font-size: 16px;
-    line-height: 28px;
-    color: #6C6C6C;
-    
-}
-.client-info .name{
-    font-size: 14px;
-    color: #0C1920;
-    font-weight: 600;
-}
-.client-info .profession{
-    font-size: 14px;
-    color: #747474;
-    font-weight: 600;
+.toast{
+    position: fixed;
+    right: 1%;
+    bottom: 2%;
+    border-left: 8px solid #3F87F5;
 }
